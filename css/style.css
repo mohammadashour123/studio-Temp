@@ -1,0 +1,680 @@
+body
+{
+    font-family: 'Fira Sans', sans-serif;
+   
+
+}
+.google
+{
+    color: #db4a39;
+}
+.twitter
+{
+    color:  #00acee;
+}
+.face
+{
+    color:  #4267B2;
+}
+.linked
+{
+    color: #0e76a8
+}
+ul
+{
+    margin: 0 ;
+    list-style: none ; 
+}
+.clearfix
+{
+    clear: both ; 
+}
+.padd
+{
+    padding: 80px 0 
+}
+.hidden
+{
+    display: none ; 
+}
+.center
+{
+    text-align: center ; 
+}
+.mcolor
+{
+    color: #EE5A24
+}
+.bcolor
+{
+    color: #EE5A24
+}
+
+.header
+{
+    background-image: url(../images/header.jpg);
+    background-position:center ;
+    background-size:cover; 
+    background-repeat: no-repeat ; 
+    color: aliceblue; 
+    position: relative ; 
+}
+.opacity
+{
+    position: absolute ; 
+    left: 0 ; 
+    top: 0 ;
+    width: 100% ; 
+    height: 100% ; 
+    background-color: rgba(0,0,0,0.6);
+}
+.navbar
+{
+    margin-top: 15px ; 
+}
+.navbar .logo
+{
+    font-size: 27px ; 
+    font-weight: bold ; 
+    cursor: pointer ; 
+}
+.navbar span
+{
+    cursor: pointer ; 
+}
+.navbar span i 
+{
+    font-size: 25px ;
+}
+.intro
+{
+    position: absolute ; 
+    top: 50% ; 
+    left: 50% ; 
+    transform: translate(-50%,-50%); 
+    
+}
+.intro h1
+{
+    font-size: 50px ;
+    margin: 0 ;
+    padding: 15px 0 
+  
+}
+.intro p
+{
+    font-size: 20px ; 
+    line-height: 1.6 ; 
+    font-style:oblique;
+
+}
+.buttons button
+{
+  border: 0 ;
+    padding: 7px 15px ; 
+    margin-left: 10px ;
+    border-radius: 5px;
+    font-size: 18px ; 
+    background-color: transparent ;  
+    transition:0.4s ;
+    color: white; 
+}
+.buttons button:hover{
+    background-color: #EE5A24 ; 
+}
+
+.header .arrow 
+{
+    position: absolute ; 
+    bottom: 0 ; 
+    left: 0 ; 
+    text-align: center ;
+    width: 100%  ; 
+    padding: 20px 0 ;
+    
+}
+.arrow i {
+    cursor: pointer ; 
+    font-size: 18px ;
+      border: 2px solid #EE5A24 ; 
+    height: 30px ; 
+    width: 30px ; 
+    line-height: 30px ; 
+    border-radius: 50% ;
+    
+}
+
+
+.feachers
+{
+    overflow: hidden;
+}
+.feachers .box
+{
+    float: left ; 
+    width: 22% ; 
+    margin-right: 4% ; 
+}
+
+.feachers .box:last-child
+{
+    margin-right: 0 ;
+}
+.box i 
+{
+    padding: 15px 0 ;
+    border: 2px solid #EE5A24 ; 
+    width: 120px ;
+    height: 120px ;
+    line-height: 90px ; 
+    border-radius: 50% ; 
+    
+}
+.box h3 
+{
+    padding-top: 10px ; 
+    padding-bottom: 7px; 
+}
+.box p 
+{
+   color: #adadad
+    
+}
+
+
+.subscribe
+{
+    background-image: url(../images/subsicribe.jpg);
+    height: 300px ; 
+    background-position:center ;
+    background-size:cover; 
+    background-repeat: no-repeat ; 
+    position: relative ; 
+}
+.tittle p 
+{
+     color: #adadad ;
+    padding:10px 0 
+}
+.subscribe form
+{
+    margin-top: 150px ; 
+    
+}
+.subscribe form input
+{
+    width:300px ; 
+    padding: 7px 10px ;
+    margin-right: 30px;
+      border-radius: 5px ; 
+    border: none;
+    outline: 0 
+    
+}
+.subscribe form button
+{
+    width: 150px ; 
+    padding: 7px 10px ;
+    border: none ; 
+    color: white ; 
+    background-color: #EE5A24;
+    border-radius: 15px ; 
+}
+.items-box
+{
+   display: grid ; 
+    grid-template-columns: 33% 33% 33%  
+}
+.item 
+{
+    margin-left: 4% ; 
+    margin-bottom: 15px ;
+    position: relative ; 
+}
+
+.item img
+{
+    width: 100% ;
+    border-radius: 10px; 
+}
+
+.ourwork-btn
+{
+    background-color: transparent ; 
+    padding: 10px 10px ; 
+    border-radius: 10px; 
+    width: 120px ;
+    color: black;
+    transition: 0.4s ;
+    border: 0 ; outline: 0 ;
+        text-transform: capitalize
+    
+}
+.ourwork-btn:hover{
+    background-color:#EE5A24 
+}
+.over
+{
+    position: absolute ; 
+    width: 100% ; 
+    height: 100% ; 
+    left: 0% ;
+    top: 0%;
+    bottom: 0 ; 
+    right: 0 ;
+    color: white ;
+   border-radius: 10px; 
+    display: none ;
+    transition: 0.5s
+    
+}
+.over h4
+{
+    margin: 0 ; 
+    padding-bottom: 5px ; 
+    margin-top: 10px ;
+    text-transform: capitalize
+  
+}
+.over button
+{
+    background-color:transparent; 
+    padding: 7px 7px ; 
+    border-radius: 15px; 
+    width: 100px ;
+    color:white;
+    transition: 0.4s ;
+    border: 0 ; outline: 0;
+     text-transform: capitalize
+}
+.over p 
+{
+    line-height: 1.7 ;
+    margin-top: 10px; 
+        text-transform: capitalize
+}
+.item .over:hover  button{
+    background-color:white; 
+    color: #EE5A24 ;
+}
+.item:hover .over
+{
+    display: block;
+    background-color:rgba(247,96,14,9);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+
+
+
+.testimonial
+{
+    background-image: url(../images/testimonial.jpg);
+    height: 400px ; 
+    background-position:center ;
+    background-size:cover; 
+    background-repeat: no-repeat ; 
+    position: relative ; 
+}
+.right,.left
+{
+    margin: 0 40px; 
+    top: 40% ;
+    cursor: pointer ; 
+    color: white ; 
+}
+
+
+.right:hover{
+   color: #ee5a24
+}.left:hover{
+   color: #ee5a24
+}
+.right
+{
+    position: absolute ; 
+    right: 0 ; 
+}.left
+{
+    position: absolute ; 
+    left: 0 ; 
+}
+
+.client img
+{
+    width: 15% ;
+    border-radius: 50% ; 
+    margin-bottom: 15px; 
+    
+}
+.client
+{
+    color: white ;
+    margin: 50px 0 ; 
+}
+.client p 
+{
+    line-height: 2 ;
+    padding: 5px 0 
+}
+.client span
+{
+    font-size: 18px 
+}
+.team-container
+{
+   
+    display: grid ; 
+    grid-template-columns: 25% 25% 25%  25%; 
+}
+.team 
+{
+   margin: 20px 30px 
+}
+.team img 
+{
+    width: 80% ; 
+    border-radius: 20px;
+    filter: gray ; 
+    filter: grayscale(1); 
+     transition: 0.3s 
+}
+.team:hover img
+{
+      filter: none; 
+    filter: grayscale(0); 
+}
+.team:hover h4
+{
+    color: black ; 
+}.team:hover p
+{
+    color: black ; 
+}
+.team h4
+{
+    font-size: 20px ; 
+    padding: 10px 0 ;
+    color: #adadad ;
+    transition: 0.3s 
+}
+.team li
+{
+    display: inline-block ; 
+}
+.team li a
+{
+    margin: 0 5px
+}
+.team li a i:hover
+{
+    color: #ee5a24
+}
+.team p 
+{
+    color: #adadad;
+    line-height: 1.5 ;
+    font-size: 14px;transition: 0.3s  
+ 
+    
+}
+.contact
+{
+    position: relative ; 
+    background-image: url(../images/contact-img.jpg);
+    background-position: center ; 
+    background-size: cover ; 
+    height: 500px ; 
+}
+.contact form
+{
+    margin: auto ; 
+    
+}
+.contact form input[type="text"], 
+.contact form input[type="email"]
+{
+    width: 45% ; 
+    margin-left: 2% ; 
+    padding: 10px 10px; 
+    border: none ; 
+    outline: none ;
+    margin-bottom: 20px ; 
+}
+.contact ul
+{
+ text-align: left
+}
+.contact li 
+{
+    display: inline-block; 
+    margin: 10px ; 
+    text-align: center;
+    
+    
+}
+.contact li i
+{
+    font-size: 25px;
+    
+}
+.area
+{
+    width: 60% ; 
+    height:150px; 
+    margin: 20px 0 ;
+     border: none ; 
+    outline: none ;
+    padding: 10px; 
+}
+.contact .tittle h2
+{
+    padding: 30px 0 ;
+    z-index: 5;
+    color: white
+}
+.contact-btn
+{
+    background-color:   #EE5A24;
+   
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 120px;
+    color: white;
+    transition: 0.4s;
+    border: 0;
+    outline: 0;
+    text-transform: capitalize;
+    float: right; 
+    margin: -40px 0
+    
+}
+.contact-btn:hover{
+    background-color: white; 
+    color:  #EE5A24;
+}
+@media(max-width:767px)
+{
+    .team-container
+{
+   
+    display: grid ; 
+    grid-template-columns: 50% 50% ; 
+}
+    .items-box
+{
+   display: grid ; 
+    grid-template-columns: 50% 50% ; 
+}
+    .feachers .box
+    {
+        float: left; 
+        width: 45%; 
+        margin-bottom: 15px ; 
+    }
+    .over h4
+{
+    margin: 0 ; 
+    padding-bottom: 5px ; 
+    margin-top: 10px ;
+    text-transform: capitalize
+  
+}
+   .right,.left
+{
+    margin: 0 20px; 
+    top:  50% ;
+    cursor: pointer ; 
+    color: white ;
+    font-size: 24px
+}
+}
+@media(max-width:332px)
+{
+    .team-container
+{
+   
+    display: grid ; 
+    grid-template-columns: 100% ; 
+}
+        .items-box
+            {
+               display: grid ; 
+            grid-template-columns: 100% ;
+            }
+          .subscribe form input
+{
+    width:200px ; 
+    padding: 7px 10px ;
+      margin: auto;
+      border-radius: 5px ; 
+    border: none;
+    outline: 0 ; 
+    
+    
+}
+    .over h4
+{
+    margin: 0 ; 
+    padding-bottom: 5px ; 
+    margin-top: 20px ;
+    text-transform: capitalize
+  
+}
+     .contact ul
+    {
+    
+    }
+    .contact ul li
+    {
+       margin: 0 3px 
+    }
+    .contact ul li i
+    {
+       font-size: 18px 
+    }
+}
+@media(max-width:510px)
+{
+      .subscribe form input
+{
+    width:300px ; 
+    padding: 7px 10px ;
+  
+      border-radius: 5px ; 
+    border: none;
+    outline: 0 ; 
+    margin: auto
+    
+    
+}
+.subscribe form button
+{
+    width: 150px ; 
+    padding: 7px 10px ;
+    border: none ; 
+    color: white ; 
+    background-color: #EE5A24;
+    border-radius: 15px ;
+    margin: 20px 0 
+} 
+    .items-box
+{
+   display: grid ; 
+    grid-template-columns: 100%   
+}
+  
+ .over h4
+{
+     
+    padding-bottom: 3px ; 
+    margin-top: 65px ;
+    text-transform: capitalize
+  
+}
+    .intro h1
+{
+    font-size: 40px ;
+  
+  
+}
+.intro p
+{
+    font-size: 18px ; 
+
+}
+.buttons button
+{
+ 
+    display: block ; 
+    margin: auto;
+    margin-bottom: 10px; 
+}
+    .contact form input[type="text"], 
+.contact form input[type="email"]
+{
+    width: 95% ; 
+    margin-left: 2% ; 
+    padding: 10px 10px; 
+    border: none ; 
+    outline: none ;
+    margin-bottom: 20px ; 
+}
+    .contact
+    {
+        height: 630px
+    }
+}
+@media(max-width:400px)
+{
+    .feachers .box
+    {
+        float: none; 
+        width: 100%; 
+        margin-bottom: 15px ;
+        margin: auto 
+    }
+    .contact-btn
+    {
+        float: none ; 
+        margin: auto ; 
+    }
+    .contact ul
+    {
+        margin-left: 65px  ; 
+        margin-bottom: 10px 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
